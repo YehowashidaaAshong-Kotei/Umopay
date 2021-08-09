@@ -93,7 +93,7 @@ padding: 20px;
 font-size: 15px;
 padding: 20px;
 }
-.container h2{
+.container2 h2{
     align-items: center;
     justify-content: center;
     display: flex;
@@ -104,9 +104,78 @@ padding: 20px;
     justify-content: center;
     display: flex;
     margin: 40px;
+}
+.container2.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cards{
+    width: 25%;
+    height: 500px;
+    border: 1px solid #ccc;
+    background: #fff;
+    transition: 0.3s;
+    margin: 20px;
+    border-radius: 5px;
+    flex-direction: row;
+}
+.pic1{
+    width: 100%;
+    height: 250px;
+    background-image: url(./pexels-photo-4482900.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
+.pic2{
+    width: 100%;
+    height: 250px;
+    background-image: url(./business\ account.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.pic3{
+    width: 100%;
+    height: 250px;
+    background-image: url(./partnership.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body1 h1{
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.body2 h1{
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.body3 h1{
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+#btn{
 
+    color: white;
+    background-color: rgb(25, 25, 56);
+    border-radius: 5px;
+    margin: 40%;
+    width: 120px;
+height: 45px;
+}
 
     </style>
 </head>
@@ -143,19 +212,49 @@ padding: 20px;
 
        </div>
 
-       <div class="container2">  
-           <h2>What Makes UMO Different</h2>
-           <p>UMO'S block chain service platform provides you a secure,flexible,and easy means to meet your digital paymnet,banking and e-commerce needs</p>
-       </div>
-       
-       <div class="crd">
-
-
-       </div>
-       
-
-
     </div>
     
+    <div class="container2">  
+        <h2>What Makes UMO Different</h2>
+        <p>UMO'S block chain service platform provides you a secure,flexible,and easy means to meet your digital paymnet,banking and e-commerce needs</p>
+
+        <div class="row2">
+            <div class="cards">
+                <div class="pic1"><input type="submit" value="Register" id="btn"></div>
+                <div class="body1">
+                    <h1>Individual account</h1>
+                    <p>
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+
+            </div>
+            <div class="cards">
+                <div class="pic2"><input type="submit" value="Register" id="btn"></div>
+                <div class="body2">
+                    <h1>Business/Merchant account
+
+                    </h1>
+                    <p>
+                        Business Accounts with Universal Money gives a range of unlimited option to operate your business and make your business grow.
+                    </p>
+                </div>
+
+            </div>
+            <div class="cards">
+                <div class="pic3"><input type="submit" value="Register" id="btn"></div>
+                <div class="body3">
+                    <h1>Partner Account</h1>
+                    <p>
+                        Come to the new world of electronic payments with our partner account. Do you want to earn commissions and interest while enjoying the fast and reliable payment processing ? A merchant account with UNIVERSAL MONEY is all you need
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
 </body>
 </html>
